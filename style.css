@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(63, 59, 59);
+}
+h1 {
+  color: gray;
+  color: gold;
+}
+h2 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color:bisque;
+    font-family: "consolas", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+ul{
+    color: bisque
+}
+ol{
+    color: bisque;
+}
+form{
+  color: bisque;
+}
+img{
+  width: 170px; border-radius: 85px;
+}
+a{
+  text-decoration: none;
+  text-decoration-color: aliceblue;
+  color: aliceblue;
+  cursor: pointer;
+}
+/* This is the header section in the Html document */
+.page-header{
+  /* align-items: center; */
+  /* justify-items: center;  */
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  
+}
+.page-header h2{
+  margin: 2rem .5rem 2rem 2rem;
+  padding: 2rem 0 2rem 2rem ;
+}
+.logo{
+  width: 50px; 
+  height: 50px;
+  /* padding: 2rem; */
+  margin: 3.5rem 2rem 1.5rem 0 ;
+  border: 2px solid red;
+  
+}
+.logo:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+.header{
+  color: gold;
+}
